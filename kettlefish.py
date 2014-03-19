@@ -72,6 +72,7 @@ REMYSPEAK.update({
     "qual": "quality",
     "holy business": "this situation is getting out of hand",
     "(ob|ab)sanity": "absurd insanity",
+    "eating their own dogfood": "using a product to show the value of a product",
 })
 
 def translate_remyspeak(text):
