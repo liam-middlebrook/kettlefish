@@ -72,9 +72,7 @@ REMYSPEAK.update({
     "qual": "quality",
     "holy business": "this situation is getting out of hand",
     "(ob|ab)sanity": "absurd insanity",
-    "loot_helion": "loothelion",
-})
-
+  })
 
 def translate_remyspeak(text):
     cap_map = [str.lower, str.capitalize, str.upper]
