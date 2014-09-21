@@ -84,6 +84,10 @@ class KettleBot(IRCClient):
             if not msg.lower() == translated.lower():
                 self.can_talk(channel, 'What {} means is: {}'.format(
                          user, display))
+	elif "loot_helion" in msg.lower():
+	    self.can_talk(channel, 'What {} means is: {}'.format(
+	        user, re.sub(r'\b{}\b'.format(
+		        'loot_helion', 'loothelion', msg.lower()))
 
         tag_list = self.xml.findall(msg.lower())
         untag_list = self.xml_close.findall(msg.lower())
